@@ -21,7 +21,7 @@ public class Assignment {
 	public String subUserName = "osama";
 	Random random = new Random();
 
-	public int num = random.nextInt(100);
+	public int num = random.nextInt(150);
 	public String userName = "osama" + num;
 
 	@BeforeClass
